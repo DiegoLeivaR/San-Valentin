@@ -173,28 +173,25 @@ document.getElementById('noBtn').addEventListener('click', function() {
           
             noButtonState++;
             break;
-        // --- REEMPLAZA TU CASE 14 ACTUAL CON ESTE ---
         case 14:
             // 1. Transformamos el botón "No" en "Sí"
             document.getElementById('noBtn').innerHTML = 'Sí ❤️';
-            document.getElementById('noBtn').style.backgroundColor = '#4CAF50'; // Verde
+            document.getElementById('noBtn').style.backgroundColor = '#4CAF50';
             
-            // 2. Transformamos el botón "Sí" original en "Claro que sí"
+            // 2. Transformamos el botón "Sí" original en "Claro q si"
             var siBtn = document.getElementById('siBtn');
             siBtn.innerHTML = 'Claro q si ❤️';
             siBtn.style.backgroundColor = '#4CAF50';
-            siBtn.style.display = 'inline-block'; // Aseguramos que se vea
+            siBtn.style.display = 'inline-block';
             
-            // 3. ¡IMPORTANTE! Reseteamos el tamaño del botón "Sí" 
-            // (porque antes estaba gigante por los pasos anteriores)
-            siBtn.style.fontSize = '1.2rem';  // Tamaño normal (ajusta si quieres)
-            siBtn.style.padding = '12px 35px'; // Padding normal
+            // 3. Reseteamos tamaños para que se vean parejos
+            siBtn.style.fontSize = '1.2rem'; 
+            siBtn.style.padding = '12px 35px';
             
-            // Lo mismo para el botón "No" transformado para que se vean iguales
             document.getElementById('noBtn').style.fontSize = '1.2rem';
             document.getElementById('noBtn').style.padding = '12px 35px';
 
-            // Gestión de Gifs (volvemos al osito normal esperando respuesta)
+            // Volvemos al gif del osito normal
             document.getElementById('sadGifContainer').style.display = 'none';
             document.getElementById('sadGifContainer1').style.display = 'none';
             document.getElementById('sadGifContainer2').style.display = 'none';
@@ -203,8 +200,12 @@ document.getElementById('noBtn').addEventListener('click', function() {
             // Avanzamos al estado final
             noButtonState = 15;
             break;
+        case 15:
+            decirQueSi();
+            break;
     }
 });
+
 
 
 
