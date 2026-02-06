@@ -20,7 +20,7 @@ document.getElementById('siBtn').addEventListener('click', function() {
 
     // Mostrar el mensaje específico
     document.getElementById('messageContainer').style.display = 'block';
-    document.getElementById('messageContainer').innerHTML = '¡Oh Siii! jajaja';
+    document.getElementById('messageContainer').innerHTML = '¡Ya lo sabia, te amo!!❤️❤️❤️ jajaja';
 
     // Mostrar otro gif después de 3 segundos
     setTimeout(function() {
@@ -261,5 +261,6 @@ document.getElementById('noBtn').addEventListener('click', function() {
             break;
     }
 });
+
 
 
