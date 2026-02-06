@@ -22,7 +22,7 @@ function decirQueSi() {
 
     // Mostrar mensaje
     document.getElementById('messageContainer').style.display = 'block';
-    document.getElementById('messageContainer').innerHTML = '¡Ya lo sabía, te amo!!❤️❤️❤️';
+    document.getElementById('messageContainer').innerHTML = '¡Ya lo sabía!<br>!Te amo!!❤️❤️❤️';
 
     // Secuencia de Gifs felices
     setTimeout(function() {
@@ -87,7 +87,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
             break;
         
         case 3:
-            document.getElementById('noBtn').innerHTML = "It's for Julia, right? (I already knew jajajjaja)";
+            document.getElementById('noBtn').innerHTML = "It's because of Julia, isn't it? (I already knew jajajjaja)";
             document.getElementById('siBtn').style.fontSize = '70px';
             document.getElementById('siBtn').style.padding = '50px 70px';
         
@@ -201,5 +201,6 @@ document.getElementById('noBtn').addEventListener('click', function() {
             break;
     }
 });
+
 
 
