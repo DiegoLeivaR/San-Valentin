@@ -22,7 +22,7 @@ function decirQueSi() {
 
     // Mostrar mensaje
     document.getElementById('messageContainer').style.display = 'block';
-    document.getElementById('messageContainer').innerHTML = '¡Ya lo sabía!<br>!Te amo!!❤️❤️❤️';
+    document.getElementById('messageContainer').innerHTML = '¡Ya lo sabía!<br>¡Te amo!!❤️❤️❤️';
 
     // Secuencia de Gifs felices
     setTimeout(function() {
@@ -201,6 +201,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
             break;
     }
 });
+
 
 
 
