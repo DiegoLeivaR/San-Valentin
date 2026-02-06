@@ -87,7 +87,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
             break;
         
         case 3:
-            document.getElementById('noBtn').innerHTML = "It's by Julia, right? (I already knew jajajjaja)";
+            document.getElementById('noBtn').innerHTML = "It's for Julia, right? (I already knew jajajjaja)";
             document.getElementById('siBtn').style.fontSize = '70px';
             document.getElementById('siBtn').style.padding = '50px 70px';
         
@@ -201,4 +201,5 @@ document.getElementById('noBtn').addEventListener('click', function() {
             break;
     }
 });
+
 
